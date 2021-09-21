@@ -10,6 +10,7 @@ namespace Försommarpyssel.Crypto.Languages
 		private static readonly IReadOnlyDictionary<string, Language> languages = new Dictionary<string, Language>
 		{
 			["SWE"] = new Swedish(),
+			["ENG"] = new English(),
 		};
 
 		public static IEnumerable<string> LanguageCodes() =>
